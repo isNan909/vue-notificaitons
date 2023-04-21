@@ -1,0 +1,38 @@
+@import './base.css';
+
+a,
+.green {
+  text-decoration: none;
+  color: hsla(160, 100%, 37%, 1);
+  transition: 0.4s;
+}
+
+.green-button{
+  padding: 10px 20px;
+  background-color: green;
+  color: #ffffff;
+  font-size: 16px;
+  margin: 30px 0px;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+@media (hover: hover) {
+  a:hover {
+    background-color: hsla(160, 100%, 37%, 0.2);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: 20px;
+  }
+
+  #app {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+  }
+}
